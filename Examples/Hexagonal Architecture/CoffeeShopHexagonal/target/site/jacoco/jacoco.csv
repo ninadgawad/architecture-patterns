@@ -1,5 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
 coffeeshop-hexagonal,com.ninad.architect.coffeeshop.core,CoffeeShop,0,19,0,0,0,7,0,3,0,3
-coffeeshop-hexagonal,com.ninad.architect.coffeeshop,Main,26,0,0,0,7,0,2,0,2,0
+coffeeshop-hexagonal,com.ninad.architect.coffeeshop,Main,3,23,0,0,1,6,1,1,1,1
 coffeeshop-hexagonal,com.ninad.architect.coffeeshop.adapters,DatabaseOrderService,0,9,0,0,0,3,0,2,0,2
 coffeeshop-hexagonal,com.ninad.architect.coffeeshop.adapters,ApiMenuService,0,5,0,0,0,2,0,2,0,2

@@ -6,13 +6,13 @@ import com.ninad.architect.coffeeshop.core.CoffeeShop;
 
 <span class="nc" id="L7">public class Main {</span>
   public static void main(String[] args) {
-<span class="nc" id="L9">    var orderAdapter = new DatabaseOrderService();</span>
-<span class="nc" id="L10">    var menuAdapter = new ApiMenuService();</span>
+<span class="fc" id="L9">    var orderAdapter = new DatabaseOrderService();</span>
+<span class="fc" id="L10">    var menuAdapter = new ApiMenuService();</span>
 
-<span class="nc" id="L12">    var coffeeShop = new CoffeeShop(orderAdapter, menuAdapter);</span>
+<span class="fc" id="L12">    var coffeeShop = new CoffeeShop(orderAdapter, menuAdapter);</span>
 
-<span class="nc" id="L14">    coffeeShop.placeOrder(&quot;Latte&quot;, 2);</span>
-<span class="nc" id="L15">    System.out.println(coffeeShop.getMenu());</span>
-<span class="nc" id="L16">  }</span>
+<span class="fc" id="L14">    coffeeShop.placeOrder(&quot;Latte&quot;, 2);</span>
+<span class="fc" id="L15">    System.out.println(coffeeShop.getMenu());</span>
+<span class="fc" id="L16">  }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>
