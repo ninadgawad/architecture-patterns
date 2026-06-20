@@ -1,8 +1,8 @@
-package com.example.coffeeshop;
+package com.ninad.architect.coffeeshop;
 
-import com.example.coffeeshop.adapters.ApiMenuService;
-import com.example.coffeeshop.adapters.DatabaseOrderService;
-import com.example.coffeeshop.core.CoffeeShop;
+import com.ninad.architect.coffeeshop.adapters.ApiMenuService;
+import com.ninad.architect.coffeeshop.adapters.DatabaseOrderService;
+import com.ninad.architect.coffeeshop.core.CoffeeShop;
 
 public class Main {
   public static void main(String[] args) {
@@ -11,7 +11,6 @@ public class Main {
 
     var coffeeShop = new CoffeeShop(orderAdapter, menuAdapter);
 
-    // Use adapters via core
     coffeeShop.placeOrder("Latte", 2);
     System.out.println(coffeeShop.getMenu());
   }

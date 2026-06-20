@@ -1,7 +1,7 @@
-package com.example.coffeeshop.core;
+package com.ninad.architect.coffeeshop.core;
 
-import com.example.coffeeshop.ports.MenuService;
-import com.example.coffeeshop.ports.OrderService;
+import com.ninad.architect.coffeeshop.ports.MenuService;
+import com.ninad.architect.coffeeshop.ports.OrderService;
 
 public class CoffeeShop {
   private final OrderService orderService;
@@ -13,7 +13,6 @@ public class CoffeeShop {
   }
 
   public void placeOrder(String item, int quantity) {
-    // Core business logic can validate, apply rules, etc.
     orderService.placeOrder(item, quantity);
   }
 

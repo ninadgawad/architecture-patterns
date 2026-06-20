@@ -1,4 +1,4 @@
-package com.example.coffeeshop.ports;
+package com.ninad.architect.coffeeshop.ports;
 
 public interface MenuService {
   String getMenu();

@@ -1,11 +1,10 @@
-package com.example.coffeeshop.adapters;
+package com.ninad.architect.coffeeshop.adapters;
 
-import com.example.coffeeshop.ports.OrderService;
+import com.ninad.architect.coffeeshop.ports.OrderService;
 
 public class DatabaseOrderService implements OrderService {
   @Override
   public void placeOrder(String item, int quantity) {
-    // Simulate persisting an order
     System.out.println("[DatabaseOrderService] Saved order: " + item + " x" + quantity);
   }
 }
